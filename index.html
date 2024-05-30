@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>YOUNG SCIENTISTS</title>
+</head>
+<body>
+    <div id="choose-teams">
+        <div class="ys-images-container">
+            <img src="images/debat.png" alt="">
+        </div>
+        <p class="choix-equipe-title">Choisissez les deux équipes</p>
+        <div class="form-container">
+            <div class="choix-eq">
+                <label for="equipe1-select">équipe 1</label>
+                <select name="equipe1-select" id="equipe1-select">
+                    <option value="Lycée Didier Marie">Lycée Didier Marie</option>
+                    <option value="Lycée Cheikh O. F. Tall">Lycée Cheikh O. F. Tall</option>
+                    <option value="Lycée Ngallele">Lycée Ngallele</option>
+                    <option value="Lycée Aimé Cesaire">Lycée Aimé Cesaire</option>
+                    <option value="Lycée Ameth Fall">Lycée Ameth Fall</option>
+                    <option value="Lycée Charles De Gaulle">Lycée Charles De Gaulle</option>
+                </select>
+            </div>
+            <div class="choix-eq">
+                <label for="equipe2-select">équipe 2</label>
+                <select name="equipe2-select" id="equipe2-select">
+                    <option value="Lycée Didier Marie">Lycée Didier Marie</option>
+                    <option value="Lycée Cheikh O. F. Tall">Lycée Cheikh O. F. Tall</option>
+                    <option value="Lycée Ngallele">Lycée Ngallele</option>
+                    <option value="Lycée Aimé Cesaire">Lycée Aimé Cesaire</option>
+                    <option value="Lycée Ameth Fall">Lycée Ameth Fall</option>
+                    <option value="Lycée Charles De Gaulle">Lycée Charles De Gaulle</option>
+                </select>
+            </div>
+        </div>
+        <span id="commencer">Commencer la partie</span>
+    </div>
+    <div id="game">
+        <div class="eq1-part">
+            <div id="game-eq1-text" class="titre-equipe"></div>
+            <p id="points-eq-1">0</p>
+            <p class="pts">Points</p>
+            <div class="add-remove">
+                <span class="add" id="remove-eq1">-</span>
+                <span class="remove" id="add-eq1">+</span>
+            </div>
+        </div>
+        <div class="middle-part">
+            <img src="images/debat.png" alt="">
+            <select name="points-ajouter" id="points-ajouter">
+                <option value="5">5 Points</option>
+                <option value="10">10 Points</option>
+                <option value="15">15 Points</option>
+                <option value="20">20 Points</option>
+                <option value="25">25 Points</option>
+                <option value="30">30 Points</option>
+                <option value="35">35 Points</option>
+                <option value="40">40 Points</option>
+            </select>
+        </div>
+        <div class="eq2-part">
+            <div id="game-eq2-text" class="titre-equipe"></div>
+            <p id="points-eq-2">0</p>
+            <p class="pts">Points</p>
+            <div class="add-remove">
+                <span class="add" id="remove-eq2">-</span>
+                <span class="remove" id="add-eq2">+</span>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
